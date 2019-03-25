@@ -1,0 +1,266 @@
+body{
+  margin:0;
+  padding:0;
+}
+/********************
+***ecran d'accueil***
+*********************/
+header {
+height:100vh;
+width:100%;
+background-image: url(image/dieting.jpg);
+background-size: cover;
+}
+.Conseilspourperdredupoids{
+  text-transform: uppercase;
+  font-family: 'Margarine',cursive;
+  position:relative;
+  width:90%;
+  top: 45vh;
+  margin: auto;
+  background-color: #8CC6D7;
+  text-align:center;
+}
+
+header h1{
+font-size:35px;
+color:white;
+padding: 30px;
+}
+
+/****************
+****menu*********
+****************/
+nav ul {
+  list-style: none;
+  float:right;
+}
+
+nav li{
+  display:inline;
+  padding-right:25px;
+}
+nav{
+  position:fixed;
+  top:o;
+  width:100%;
+  hzight:60px;
+  background-color:#EFFBFF;
+  z-index:2;
+}
+#fleche{
+  position:fixed;
+  width:50px;
+  height:50px;
+  float:right;
+  z-index:99;
+  right:15px;
+  margin-left:auto;
+  margin-right:auto;
+  bottom:15px;}
+
+#logo {
+  height: 10px;
+  position:relative;
+  padding:20px
+  top: 20px;
+  left: 20px;
+}
+#logo img{
+  width:50px;
+  height:50px
+}
+section {
+  min-height:100vh;
+  }
+h2{
+  text-align: center;
+  color: #C44C51;
+   font-family:'Kaushan Script', cursive;
+  font-size: 40px;
+  padding-top:1em;
+}
+
+
+  #section2 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c2eff9+28,9ee8fa+36,d9f3f9+80,88e7ea+100,88e7ea+100 */
+background: #c2eff9; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #c2eff9 28%, #9ee8fa 36%, #d9f3f9 80%, #88e7ea 100%, #88e7ea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #c2eff9 28%,#9ee8fa 36%,#d9f3f9 80%,#88e7ea 100%,#88e7ea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #c2eff9 28%,#9ee8fa 36%,#d9f3f9 80%,#88e7ea 100%,#88e7ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2eff9', endColorstr='#88e7ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    opacity: 40%;
+  }
+
+  ul{
+    font-family:'Delius',cursive;
+    margin-left: 2em;
+    margin-right: 4em;
+    text-align: justify;
+  }
+
+
+  .box{
+    display:flex;
+    flex-direction:row-reverse;
+  }
+.p{
+  padding-top: 2em;
+}
+
+  img {
+    width: 400px;
+    height: 400px;
+    align: center;
+    padding-left: 70px
+  }
+
+
+.box{
+  display:flex;
+  flex-direction: row-row-reverse;
+}
+#zen p {
+  font-family:'Kaushan Script', cursive;
+font-size: 40px;
+color: #C44C51;
+  padding-top: 1em;
+
+}
+#img{width:20%}
+
+
+h3{
+  text-align: center;
+  padding-top: 60px;
+  font-family: 'Kaushan Script', cursive;
+  color:#C44C51;
+  font-size: 40px;
+
+}
+
+
+
+p{
+  text-align: center;
+font-family:'Delius',cursive;
+color:black;
+font-size: 15px;
+  margin-right: : 8em;
+  padding-left: 6em;
+  padding-top: 3em
+}
+
+
+
+}
+.zen1{
+  float:right;
+  margin-top: 2em;
+  padding-right: 2em;
+  margin-right: 4em;
+
+}
+
+.zen{
+  float:left;
+  margin-right:1em;
+  margin-top: 2em;
+}
+
+#zen img{
+  margin-right: 3em;
+}
+
+
+
+
+
+#section3{
+  text-align: center;
+  color:#C44C51 ;
+   font-family:'Kaushan Script', cursive;
+  font-size: 40px;
+  padding-top: 1em;
+  margin-left: 4em;
+
+}
+
+h5{
+  text-align: center;
+  color:#C44C51 ;
+   font-family:'Kaushan Script', cursive;
+  padding-top: 0em;
+
+
+}
+p{
+  text-align: center;
+font-family:'Delius',cursive;
+color:black;
+font-size: 20px;
+  padding-right: 8em;
+  padding-left: 1em;
+  padding-top: 1em
+
+}
+
+.box{
+  display:flex;
+  flex-direction: row-row-reverse;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  padding-right: 2em;
+  margin-left: 1em;
+
+}
+
+.running{
+  float:right;
+  margin-right:4em;
+  margin-top: 4em;
+
+}
+
+.exercieregime{
+  float:left;
+  margin-left: 1em;
+  margin-top: 4em;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+/********************
+********footer********
+*********************/
+footer{
+  position: absolute;
+  margin-bottom: 0;
+  width:100%;
+  min-height:100px;
+  background-color: black;
+}
+#reseaux-sociaux{
+  text-allign:center;
+}
+#reseaux-sociaux img {
+  padding:20px;
+}
+
+@media all and (min-width: 200px) and (max-width: 640px)
+{.zen{font-size: 10px;}
+img
+{width:70%;
+height: 70%}
+
+#test{width:400%;
+height: 400%}
+
+.box p{
+  font-size: 12px;
+padding-right: 0;
+}}
